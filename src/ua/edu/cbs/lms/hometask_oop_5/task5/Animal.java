@@ -13,7 +13,7 @@ public class Animal {
         this.tail = tail;
     }
 
-    public Animal addedAnimal(String name, int age, boolean tail){
+    public static Animal addedAnimal(String name, int age, boolean tail){
         if(age<0){
             System.out.println("Вік не може бути від'ємним.");
             return null;
@@ -25,7 +25,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal: " + "name='" + name + '\'' + ", age=" + age + ", tail=" + tail;
+        return "Animal: " + "name='" + name + '\'' + ", age=" + age + ", tail=" + (tail?"Yes":"No");
     }
 
     @Override

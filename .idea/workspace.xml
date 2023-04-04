@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Added override equals &amp; hashCode methods">
-      <change afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/task5/Animal.java" afterDir="false" />
+    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Create Animal class">
+      <change afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/task5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/task5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/task5/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "task5",
     "last_opened_file_path": "L:/CBS_JAVA/2023-04-03-Java Essential 006 Статичні та вкладені класи/006 Static and Nested Classes_Anonymous classes and Enums/006 Static and Nested Classes/006_Samples",
@@ -102,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680631068369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create Animal class">
+      <created>1680632794444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632794444</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create Animal class">
+      <created>1680632814765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632814765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +132,8 @@
     <MESSAGE value="Added override toString" />
     <MESSAGE value="Added object classes to main" />
     <MESSAGE value="Added override equals &amp; hashCode methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added override equals &amp; hashCode methods" />
+    <MESSAGE value="Create Animal class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Animal class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
