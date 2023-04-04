@@ -5,10 +5,14 @@ public class Device {
     private String serialNumber;
     private float price;
 
-    public Device(String manufacturer, String serialNumber, float price){
+    private Device(String manufacturer, String serialNumber, float price){
         this.manufacturer = manufacturer;
         this.serialNumber = serialNumber;
         this.price = price;
+    }
+    public String toString() {
+        return "Device: manufacturer = " + manufacturer + ", serialNumber = " + serialNumber +
+                ", price= " + price;
     }
 
     public class Monitor{
@@ -22,6 +26,11 @@ public class Device {
             this.resolutionX = resolutionX;
             this.resolutionY = resolutionY;
         }
+
+        @Override
+        public String toString() {
+            return device.toString() + ",\n resolutionX= " + resolutionX +", resolutionY= " + resolutionY;
+        }
     }
 
     public class EthernetAdapter{
@@ -34,6 +43,11 @@ public class Device {
             this.device = new Device(manufacturer, serialNumber, price);
             this.spead = spead;
             this.mac = mac;
+        }
+
+        @Override
+        public String toString() {
+            return device.toString() + ",\n spead= " + spead +", mac= " + mac;
         }
     }
 }
