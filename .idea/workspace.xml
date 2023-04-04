@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Added override equals &amp; hashCode methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/task5/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "task2",
+    "git-widget-placeholder": "task5",
     "last_opened_file_path": "L:/CBS_JAVA/2023-04-03-Java Essential 006 Статичні та вкладені класи/006 Static and Nested Classes_Anonymous classes and Enums/006 Static and Nested Classes/006_Samples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
