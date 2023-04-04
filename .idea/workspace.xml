@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Added override toString">
+    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Added override equals &amp; hashCode methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680584180937</updated>
-      <workItem from="1680584182097" duration="6120000" />
+      <workItem from="1680584182097" duration="7319000" />
     </task>
     <task id="LOCAL-00001" summary="Remake README.md">
       <created>1680625961380</created>
@@ -90,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680628906077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added object classes to main">
+      <created>1680630606031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680630606031</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added override equals &amp; hashCode methods">
+      <created>1680631068369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680631068369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +114,39 @@
     <MESSAGE value="Created classes Device, Monitor, EthernetAdapter &amp; fill methods" />
     <MESSAGE value="Added Main class" />
     <MESSAGE value="Added override toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added override toString" />
+    <MESSAGE value="Added object classes to main" />
+    <MESSAGE value="Added override equals &amp; hashCode methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added override equals &amp; hashCode methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
