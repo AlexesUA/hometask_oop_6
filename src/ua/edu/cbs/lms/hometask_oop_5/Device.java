@@ -1,5 +1,7 @@
 package ua.edu.cbs.lms.hometask_oop_5;
 
+import java.util.Objects;
+
 public class Device {
     private String manufacturer;
     private String serialNumber;
@@ -15,6 +17,19 @@ public class Device {
     public String toString() {
         return "Device: manufacturer = " + manufacturer + ", serialNumber = " + serialNumber +
                 ", price= " + price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Device device)) return false;
+        return Float.compare(device.price, price) == 0 && Objects.equals(manufacturer, device.manufacturer)
+                && Objects.equals(serialNumber, device.serialNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(manufacturer, serialNumber, price);
     }
 
     public class Monitor{
@@ -39,6 +54,18 @@ public class Device {
         public String toString() {
             return device.toString() + ",\n resolutionX= " + resolutionX +", resolutionY= " + resolutionY;
         }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Monitor monitor)) return false;
+            return resolutionX == monitor.resolutionX && resolutionY == monitor.resolutionY && Objects.equals(device, monitor.device);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(device, resolutionX, resolutionY);
+        }
     }
 
     public class EthernetAdapter{
@@ -61,6 +88,18 @@ public class Device {
         @Override
         public String toString() {
             return device.toString() + ",\n spead= " + speed +", mac= " + mac;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof EthernetAdapter that)) return false;
+            return speed == that.speed && Objects.equals(mac, that.mac) && Objects.equals(device, that.device) ;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(device, speed, mac);
         }
     }
 }
