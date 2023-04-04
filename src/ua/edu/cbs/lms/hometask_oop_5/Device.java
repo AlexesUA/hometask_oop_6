@@ -5,6 +5,8 @@ public class Device {
     private String serialNumber;
     private float price;
 
+    private Device(){}
+
     private Device(String manufacturer, String serialNumber, float price){
         this.manufacturer = manufacturer;
         this.serialNumber = serialNumber;
@@ -17,14 +19,20 @@ public class Device {
 
     public class Monitor{
 
-        Device device;
+        private Device device;
         private int resolutionX;
         private int resolutionY;
 
-        public Monitor(String manufacturer, String serialNumber, int resolutionX, int resolutionY, float price){
+        private Monitor(String manufacturer, String serialNumber, int resolutionX, int resolutionY, float price){
             this.device = new Device(manufacturer, serialNumber, price);
             this.resolutionX = resolutionX;
             this.resolutionY = resolutionY;
+
+        }
+
+        public static Monitor createMotitor(String manufacturer, String serialNumber,
+                                            int resolutionX, int resolutionY, float price){
+            return new Device().new Monitor(manufacturer, serialNumber, resolutionX, resolutionY, price);
         }
 
         @Override
@@ -35,19 +43,24 @@ public class Device {
 
     public class EthernetAdapter{
 
-        Device device;
-        private int spead;
+        private Device device;
+        private int speed;
         private String mac;
 
-        public EthernetAdapter(String manufacturer, String serialNumber, int spead, String mac, float price){
+        private EthernetAdapter(String manufacturer, String serialNumber, int speed, String mac, float price){
             this.device = new Device(manufacturer, serialNumber, price);
-            this.spead = spead;
+            this.speed = speed;
             this.mac = mac;
+        }
+
+        public static EthernetAdapter createEthernetAdapter(String manufacturer, String serialNumber,
+                                                    int spead, String mac, float price){
+            return new Device().new EthernetAdapter(manufacturer, serialNumber, spead, mac, price);
         }
 
         @Override
         public String toString() {
-            return device.toString() + ",\n spead= " + spead +", mac= " + mac;
+            return device.toString() + ",\n spead= " + speed +", mac= " + mac;
         }
     }
 }
