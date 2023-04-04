@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="">
+    <list default="true" id="2953658f-87b6-4b50-b934-51a8f44f7e9d" name="Changes" comment="Created classes Device, Monitor, EthernetAdapter &amp; fill methods">
+      <change afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/edu/cbs/lms/hometask_oop_5/Device.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,6 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "task2",
+    "last_opened_file_path": "L:/CBS_JAVA/2023-04-03-Java Essential 006 Статичні та вкладені класи/006 Static and Nested Classes_Anonymous classes and Enums/006 Static and Nested Classes/006_Samples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,11 +60,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680584180937</updated>
-      <workItem from="1680584182097" duration="1549000" />
+      <workItem from="1680584182097" duration="3718000" />
     </task>
+    <task id="LOCAL-00001" summary="Remake README.md">
+      <created>1680625961380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680625961380</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created classes Device, Monitor, EthernetAdapter &amp; fill methods">
+      <created>1680626355249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680626355249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remake README.md" />
+    <MESSAGE value="Created classes Device, Monitor, EthernetAdapter &amp; fill methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created classes Device, Monitor, EthernetAdapter &amp; fill methods" />
   </component>
 </project>
